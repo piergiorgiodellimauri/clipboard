@@ -15,7 +15,7 @@
   /*Neutral*/
   --DarkGrayishBlue: hsl(210, 10%, 33%);
   --GrayishBlue: hsl(201, 11%, 66%);
-  --footer:hsl(201, 9%, 95%);
+  --footer: hsl(201, 9%, 95%);
 }
 
 body {
@@ -72,6 +72,12 @@ p {
   padding: 18px;
   text-decoration: none;
   font-size: 16px;
+}
+.buttom1:hover{
+  background-color: hsl(171, 66%, 64%);
+}
+.buttom2:hover{
+  background-color: hsl(233, 100%, 76%);
 }
 
 .buttom2 {
@@ -142,15 +148,18 @@ p {
 .function_box {
   margin-top: 5%;
 }
-.preview{
+
+.preview {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.mac_logo{
+
+.mac_logo {
   width: 100%;
   height: auto;
 }
+
 .third_banner {
   display: flex;
   flex-direction: column;
@@ -219,63 +228,73 @@ p {
   width: 100vw;
   height: 400px;
 }
-.footer{
+
+.footer {
   display: flex;
   flex-direction: row;
   width: 100vw;
-  height: auto;
+  height: 100%;
   background-color: var(--footer);
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
 }
-.logo_footer{
-  flex:25%;
-  padding: 10%;
+
+.logo_footer {
+  flex: 20%;
+  align-self: center;
 }
-.logo_img{
-  width: 100%;
+
+.logo_img {
+  width: 20%;
 }
-.footer_menu{
-  flex:45%;
-  padding: 10%;
+
+.footer_menu {
+  flex: 45%;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
   grid-template-rows: 50% 50%;
-  }
+}
 
-.menu1{
+.menu1 {
   grid-column: 1/2;
   grid-row: 1/2;
 }
-.menu2{
+
+.menu2 {
   grid-column: 1/2;
   grid-row: 2/3;
 }
-.menu3{
+
+.menu3 {
   grid-column: 2/3;
   grid-row: 1/2;
 }
-.menu4{
+
+.menu4 {
   grid-column: 2/3;
   grid-row: 2/3;
 }
-.menu5{
+
+.menu5 {
   grid-column: 3/4;
   grid-row: 1/2;
 }
-.footer_social{
+
+.footer_social {
   display: flex;
-  flex:20%;
-  padding: 10%;
+  flex: 20%;
   flex-direction: row;
 }
-.social_icon{
-  padding: 10%;
+
+.social_icon {
+  padding: 5%;
 }
-.attribution {
-  margin-top: 20px;
-  font-size: 11px;
-  text-align: center;
+a{
+  text-decoration: none;
+  color: var(--GrayishBlue);
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+.menu_click:hover{
+  color:var(--StrongCyan);
 }
