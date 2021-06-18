@@ -415,6 +415,7 @@ a{
     position: relative;
     flex: 30%;
     flex-direction: column;
+    width: 100%;
     padding: 1%;
   }
 
