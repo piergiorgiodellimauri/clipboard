@@ -128,7 +128,7 @@ p {
 }
 
 .mac_logo {
-  width: 100%;
+  width:100%;
   height: auto;
 }
 
@@ -155,11 +155,6 @@ p {
   align-items: center;
 }
 
-.mac_logo {
-  width: 100%;
-  height: auto;
-}
-
 .third_banner {
   display: flex;
   flex-direction: column;
@@ -167,6 +162,7 @@ p {
   align-items: center;
   width: 100vw;
   height: 200px;
+  margin-top: 20%;
 }
 
 .skills_banner {
@@ -291,10 +287,187 @@ p {
 .social_icon {
   padding: 5%;
 }
+.facebook:hover{
+  fill:#4267B2;
+}
+.twitter:hover{
+  fill:#1DA1F2;
+}
+.instagram:hover{
+  fill: #125688;
+}
 a{
   text-decoration: none;
   color: var(--GrayishBlue);
 }
 .menu_click:hover{
   color:var(--StrongCyan);
+}
+@media screen and (max-width:900px){
+  .banner {
+    height: auto;
+  }
+  .logo{
+    margin-top: 100px;
+  }
+  .paragraph_banner {
+    width: 65%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .text_banner {
+    width: 90%;
+  }
+  .buttoms {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90vw;
+    height: auto;
+    margin-bottom: 100px;
+  }
+  .buttom1{
+    width: 90vw;
+    margin-bottom: 5%;
+  }
+  .buttom2{
+    width: 90vw;
+  }
+  .second_banner {
+    width: 100vw;
+    height: auto;
+    margin-bottom: 60px;
+  }
+  h2 {
+    width: 70%;
+  }
+
+  p {
+    width: 70%;
+  }
+
+  .functions {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .function_monitor {
+    flex: 50%;
+    padding-right: 5%;
+  }
+
+  .mac_logo {
+    width: 100vw;
+    height: auto;
+    margin-bottom: 10%;
+  }
+
+  .function {
+    text-align: center;
+    width: auto;
+  }
+
+  .function_text {
+    text-align: center;
+    width: auto;
+
+  }
+
+  .function_boxs {
+    flex-direction: column;
+    padding: 10%;
+  }
+
+  .devices {
+    width: 100vw;
+    height: auto;
+  }
+
+  .third_banner {
+    width: 100vw;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 60px;
+  }
+  .skills_banner {
+    width: 100vw;
+    height: auto;
+  }
+
+  .skills {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    width: 90%;
+    height: auto;
+    text-align: center;
+  }
+
+  .skills_box {
+    position: relative;
+    flex: 30%;
+    flex-direction: column;
+    padding: 1%;
+  }
+
+  .skill_txt {
+    width: auto;
+  }
+
+  .skill_h2 {
+    width: auto;
+    margin-top: 2%;
+  }
+
+  .skill_image {
+    margin-right: auto;
+  }
+  .partners {
+    display: flex;
+    flex-direction: column;
+  }
+  .partners_logo{
+    padding: 8%;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo_footer {
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0 auto 30px;
+  }
+
+  .logo_img {
+    width: 80%;
+  }
+
+  .footer_menu {
+    flex: auto%;
+    display: flex;
+    padding: 10%;
+    line-height: 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer_social{
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .social_icon{
+    padding: 20%;
+  }
 }
